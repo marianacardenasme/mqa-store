@@ -7,10 +7,14 @@
 }
 
 .infoCardContainer--info-card-home {
-  max-width: 1520px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
+}
+
+.infoCardHeadline--info-card-home {
+  font-size: 22px;
 }
 
 .newsletter {
@@ -110,4 +114,8 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.logo-mqa {
+  margin: 10px;
 }

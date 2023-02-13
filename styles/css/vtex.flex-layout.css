@@ -22,10 +22,6 @@
   color: #fff;
 }
 
-.flexRowContent--menuItem--isOpen {
-  background-color: #07889B;
-}
-
 .flexRowContent--main-header {
   background-color: white;
 }
@@ -39,6 +35,15 @@
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-menuItem--isOpen) {
+  background-color: white;
+  color: black;
+}
+
+.flexRowContent--menu-link:last-child {
+  padding: 20px 15px 0px 0px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {

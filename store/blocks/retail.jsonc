@@ -1,40 +1,92 @@
 {
   "store.custom#retail": {
     "blocks": [
-      "flex-layout.row#retail"
+      "sticky-layout#4-desktop",
+      "rich-text#title-retail",
+      "list-context.image-list#retail__slider--list"
     ]
   },
-  "flex-layout.row#retail": {
-    "children": [
-      "image#mobile-phone",
-      "flex-layout.col#text-retail"
-    ]
-  },
-
-  "flex-layout.col#text-retail": {
-    "children": [
-      "rich-text#title-retail"
-    ],
+  "sticky-layout#4-desktop": {
     "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["image#desktop--logo"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "image#desktop--logo": {
+    "props": {
+      "src": "https://logodownload.org/wp-content/uploads/2014/05/zara-logo-1.png",
+      "maxWidth": 55
     }
   },
 
   "rich-text#title-retail": {
     "props": {
-      "text":
-      "# Create meaningful and relevant experiences.",
+      "text": "Create meaningful and relevant experiences",
       "blockClass": "title"
     }
   },
-
-  "image#mobile-phone": {
+  "list-context.image-list#retail__slider--list": {
+    "children": ["slider-layout#retail__slider--list"],
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
-      "maxHeight": "",
-      "maxWidth": "",
-      "blockClass": "storePrint"
+      "preload": true,
+      "images": [
+        {
+          "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/internal_990/public/VIS7JMGI7BG7TMGO6AGBLJPDX4.jpg.webp?itok=dzG7mjHp",
+          "description": "slide 1",
+          "maxHeight": 600
+        },
+        {
+          "image": "https://d1ih8jugeo2m5m.cloudfront.net/2021/12/errores-al-vender-ropa-en-linea-1200x675.jpg",
+          "description": "slide 2",
+          "maxHeight": 600
+        },
+        {
+          "image": "https://d1ih8jugeo2m5m.cloudfront.net/2021/11/como-tomar-fotos-para-vender-ropa-2.jpg",
+          "description": "slide 3",
+          "maxHeight": 600
+        }
+      ]
+    }
+  },
+  "slider-layout#retail__slider--list":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
     }
   }
 }

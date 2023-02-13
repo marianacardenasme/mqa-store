@@ -4,108 +4,195 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-ropa",
+      "menu-item#category-zapatos",
+      "menu-item#ofertas"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-ropa": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-ropa",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/apparel/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Ropa",
+        "text": "Ropa"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-ropa"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-ropa": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-ropa"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-ropa": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-ropa-sweaters",
+      "menu-item#category-ropa-jeans",
+      "menu-item#category-ropa-faldas",
+      "menu-item#category-ropa-camisas"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-ropa-sweaters": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-ropa-sweaters",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/ropa---sweaters/sweaters/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "sweaters",
+        "text": "sweaters"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-ropa-jeans": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-ropa-jeans",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/ropa---jeans/jeans/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "jeans",
+        "text": "jeans"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-ropa-faldas": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-ropa-faldas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/ropa---faldas/faldas/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "faldas",
+        "text": "faldas"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-ropa-camisas": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-ropa-camisas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/ropa---camisas/camisas/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "camisas",
+        "text": "camisas"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#category-zapatos": {
+    "props": {
+      "id": "menu-item-category-zapatos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel/",
+        "noFollow": false,
+        "tagTitle": "zapatos",
+        "text": "Zapatos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-zapatos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-zapatos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-zapatos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-zapatos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-zapatos-botas",
+      "menu-item#category-zapatos-tacones",
+      "menu-item#category-zapatos-deportivos"
+    ]
+  },
+  "menu-item#category-zapatos-botas": {
+    "props": {
+      "id": "menu-item-category-zapatos-botas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos---bottoms/botas/",
+        "noFollow": false,
+        "tagTitle": "botas",
+        "text": "botas"
+      }
+    }
+  },
+  "menu-item#category-zapatos-tacones": {
+    "props": {
+      "id": "menu-item-category-zapatos-tacones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos---tacones/tacones/",
+        "noFollow": false,
+        "tagTitle": "tacones",
+        "text": "tacones"
+      }
+    }
+  },
+  "menu-item#category-zapatos-deportivos": {
+    "props": {
+      "id": "menu-item-category-zapatos-deportivos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos---deportivos/deportivos/",
+        "noFollow": false,
+        "tagTitle": "deportivos",
+        "text": "deportivos"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#ofertas": {
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
@@ -115,48 +202,78 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "ofertas",
+        "text": "Ofertas"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#ofertas"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#ofertas": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#menu-ofertas"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "flex-layout.row#menu-ofertas": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-ofertas-1",
+      "flex-layout.col#menu-ofertas-2"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#menu-ofertas-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#ofertas"
     ]
   },
-  "flex-layout.col#menu-more-2": {
+  "flex-layout.col#menu-ofertas-2": {
     "children": [
       "info-card#home"
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#ofertas": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq",
-      "menu-item#retail"
+      "menu-item#ropa-ofertas",
+      "menu-item#zapatos-ofertas"
     ]
   },
+  "menu-item#ropa-ofertas": {
+    "props": {
+      "id": "menu-item-ropa-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa-ofertas",
+        "noFollow": true,
+        "tagTitle": "Ropa en oferta",
+        "text": "Ropa en oferta"
+      }
+    }
+  },
+  "menu-item#zapatos-ofertas": {
+    "props": {
+      "id": "menu-item-zapatos-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zapatos-ofertas",
+        "noFollow": true,
+        "tagTitle": "Zapatos en oferta",
+        "text": "Zapatos en oferta"
+      }
+    }
+  },
+
   "menu-item#about-us": {
     "props": {
       "id": "menu-item-about-us",
@@ -167,41 +284,12 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "about-us",
+        "text": "Sobre nosotros"
       }
     }
   },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
-      }
-    }
-  },
+
   "menu-item#retail": {
     "props": {
       "id": "menu-item-retail",
