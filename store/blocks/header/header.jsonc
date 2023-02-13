@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -78,9 +78,9 @@
   },
   "logo#desktop": {
     "props": {
-      "title": "Logo",
+      "text": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "src": "",
       "width": "180",
       "height": "12"
     }

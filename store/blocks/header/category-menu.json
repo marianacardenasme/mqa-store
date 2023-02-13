@@ -153,7 +153,8 @@
     },
     "children": [
       "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#faq",
+      "menu-item#retail"
     ]
   },
   "menu-item#about-us": {
@@ -198,6 +199,21 @@
         "noFollow": true,
         "tagTitle": "Contact Us",
         "text": "Contact Us"
+      }
+    }
+  },
+  "menu-item#retail": {
+    "props": {
+      "id": "menu-item-retail",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/retail",
+        "noFollow": true,
+        "tagTitle": "Retail",
+        "text": "Retail"
       }
     }
   }

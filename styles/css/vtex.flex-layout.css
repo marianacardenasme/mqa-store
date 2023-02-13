@@ -18,12 +18,16 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #66B9BF;
   color: #fff;
 }
 
+.flexRowContent--menuItem--isOpen {
+  background-color: #07889B;
+}
+
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .flexRowContent--main-header-mobile {
