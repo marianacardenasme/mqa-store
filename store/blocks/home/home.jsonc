@@ -9,7 +9,8 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
+      "rich-text#productos-destacados",
+      "flex-layout.row#bullets",
       "rich-text#link",
       "newsletter"
     ]
@@ -88,10 +89,74 @@
     }
   },
 
-  "rich-text#question": {
+  //aqui empiezan los productos destacados
+  "flex-layout.row#bullets": {
+    "children": ["list-context.bullet-group"]
+  },
+  "list-context.bullet-group":{
+    "title": "productos destacados",
+    "children": ["slider-layout#bullet-group"],
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "bullets": [
+        {
+          "image": "https://leknit.com/images/produktbilleder/Porcelain-sweater-2-le-knit-lene-holme-samsoee-sams%C3%B8e-strikkeopskrift-p.jpg",
+          "titleBullet": "sku1",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cdn.shopify.com/s/files/1/0164/3977/1236/products/DSC_8789_94159fc1-d04c-4971-8402-b6800e7fa94a.jpg?v=1654022418&width=1946",
+          "titleBullet": "sku2",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://tennis.vteximg.com.br/arquivos/ids/2068931-650-992/tshirt-para-mujer-tennis-blanco.jpg?v=637994815472530000",
+          "titleBullet": "sku3",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://cdn.shopify.com/s/files/1/0311/9398/9260/products/true_cargo_multi_pocket_black_2_pantalones_sudaderas_720x720.jpg?v=1671467779",
+          "titleBullet": "sku4",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://m.media-amazon.com/images/I/71n4YW9hYLL._AC_UL1500_.jpg",
+          "titleBullet": "sku5",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://studiofco.vteximg.com.br/arquivos/ids/1359027-1000-1071/Vestidos-AZULKLEIN-S142309-2.jpg?v=638074036765330000",
+          "titleBullet": "sku6",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true
+    }
+  },
+
+  "rich-text#productos-destacados": {
+    "props": {
+      "text": "Productos destacados"
     }
   },
 

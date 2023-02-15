@@ -31,8 +31,8 @@
   },
   "image#header--logo":{
     "props": {
-      "src": "https://i0.wp.com/mqa-bc.com/wp-content/uploads/2019/03/Logo-MQA-copy@2x.png?fit=358%2C102&ssl=1",
-      "maxHeight": 20,
+      "src": "assets/img/logo-negativo.png",
+      "maxHeight": 50,
       "url": "/",
       "blockClass": "logo-mqa"
     }

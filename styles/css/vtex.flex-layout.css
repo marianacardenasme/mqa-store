@@ -42,10 +42,6 @@
   color: black;
 }
 
-.flexRowContent--menu-link:last-child {
-  padding: 20px 15px 0px 0px;
-}
-
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
   font-size: 14px;
@@ -104,4 +100,21 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRowContent :global(.vtex-category-menu-2-x-container) {
+  background-color: transparent;
+}
+
+.flexRowContent :global(.vtex-category-menu-2-x-submenuList){
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent :global(.vtex-category-menu-2-x-submenuItem) {
+  margin-top: 10px;
+}
+
+.flexRowContent :global(.vtex-flex-layout-0-x-flexColChild):first-child {
+  margin-left: 20px;
 }

@@ -29,3 +29,13 @@
   padding-right: .5rem;
   min-height: 550px;
 }
+
+.slideChildrenContainer .bullet__item {
+  width: 120px;
+  background-color: blue;
+}
+
+.slideChildrenContainer .bullet__item--title {
+  text-decoration: none;
+  color: white;
+}
