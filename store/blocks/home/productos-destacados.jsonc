@@ -1,0 +1,16 @@
+{
+  "product-summary.shelf#destacados": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#destacados": {
+    "blocks": ["product-summary.shelf#destacados"],
+    "children": ["slider-layout#bullet-group"]
+  }
+}
